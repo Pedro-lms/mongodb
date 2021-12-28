@@ -11,12 +11,12 @@ import java.io.Serializable;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Document(collation = "user")
+@Document(collection = "users")
 public class User implements Serializable {
     static final long serialVersionUID =1L;
 
     @Id
-    Long id;
+    String id;
     String name;
     String email;
 }

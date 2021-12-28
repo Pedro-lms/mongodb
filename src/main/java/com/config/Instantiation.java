@@ -1,4 +1,4 @@
-package com.controllers;
+package com.config;
 
 import com.model.User;
 import com.repositories.UserRepository;
